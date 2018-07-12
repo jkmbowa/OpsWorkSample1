@@ -5,3 +5,7 @@ end
 file '/var/www/index.html' do
     content '<html><h1>James Mbowa is testing</h1></html>'
 end
+
+service 'httpd' do
+    action: start
+end
