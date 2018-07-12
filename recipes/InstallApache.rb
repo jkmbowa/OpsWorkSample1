@@ -1,3 +1,3 @@
 package "install Apache" do
-    package "httpd"
+    package_name "httpd"
 end
